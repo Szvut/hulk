@@ -147,4 +147,4 @@ else:
 		if url.count("/")==2:
 			url = url + "/"
 		m = re.search('(https?\://)?([^/]*)/?.*', url)
-		host = m.gr
+		host = m.grs
